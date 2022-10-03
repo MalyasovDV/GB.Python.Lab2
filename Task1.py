@@ -5,12 +5,9 @@ def sum_of_digits (floatnum):
         if (digit != '.'):
             digit = int(digit)
             sum = digit+sum
-    print(sum)
+    print(floatnum, ": sum of digits is", sum)
     
 
-def div10(floatnum):
-    return floatnum%10
+sum_of_digits(6782)
 
-floatnum = 22.85
-sum_of_digits(floatnum)
-print(div10(floatnum))
+sum_of_digits(0.56)
