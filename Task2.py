@@ -7,4 +7,4 @@ def set_of_multiplications(number):
 
 
 n = 4
-print(set_of_multiplications(n))
+print(n, ":", set_of_multiplications(n))
