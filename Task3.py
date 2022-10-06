@@ -12,7 +12,8 @@ def sum_elements_of_list(sequence):
         sum += element
     return sum
 
+print("Введите количество чисел последовательности")
 n = int(input())
 list = create_list(n)
-print(list)
-print(sum_elements_of_list(list))
+print("Список:", list)
+print("Сумма: ", sum_elements_of_list(list))
